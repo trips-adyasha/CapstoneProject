@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="318.625" tests="20" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\ADYASHA\.cache\selenium\chromedriver\win64\134.0.6998.165\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\ADYASHA\eclipse-workspace\CapstoneProject\target\test-classes;C:\Users\ADYASHA\eclipse-workspace\CapstoneProject\target\classes;C:\Users\ADYASHA\.m2\repository\org\seleniumhq\selenium\selenium-java\4.29.0\selenium-java-4.29.0.jar;C:\Users\ADYASHA\.m2\repository\org\seleniumhq\selenium\selenium-api\4.29.0\selenium-api-4.29.0.jar;C:\Users\ADYASHA\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\ADYASHA\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.29.0\selenium-chrome-driver-4.29.0.jar;C:\Users\ADYASHA\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\ADYASHA\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.29.0\selenium-chromium-driver-4.29.0.jar;C:\Users\ADYASHA\.m2\repository\org\seleniumhq\selenium\selenium-json\4.29.0\selenium-json-4.29.0.jar;C:\Users\ADYASHA\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.29.0\selenium-manager-4.29.0.jar;C:\Users\ADYASHA\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.29.0\selenium-devtools-v131-4.29.0.jar;C:\Users\ADYASHA\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v132\4.29.0\selenium-devtools-v132-4.29.0.jar;C:\Users\ADYASHA\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v133\4.29.0\selenium-devtools-v133-4.29.0.jar;C:\Users\ADYASHA\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.29.0\selenium-devtools-v85-4.29.0.jar;C:\Users\ADYASHA\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.29.0\selenium-edge-driver-4.29.0.jar;C:\Users\ADYASHA\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.29.0\selenium-firefox-driver-4.29.0.jar;C:\Users\ADYASHA\.m2\repository\org\seleniumhq\selenium\selenium-http\4.29.0\selenium-http-4.29.0.jar;C:\Users\ADYASHA\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.29.0\selenium-ie-driver-4.29.0.jar;C:\Users\ADYASHA\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.29.0\selenium-remote-driver-4.29.0.jar;C:\Users\ADYASHA\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\ADYASHA\.m2\repository\io\opentelemetry\opentelemetry-api\1.46.0\opentelemetry-api-1.46.0.jar;C:\Users\ADYASHA\.m2\repository\io\opentelemetry\opentelemetry-context\1.46.0\opentelemetry-context-1.46.0.jar;C:\Users\ADYASHA\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.46.0\opentelemetry-exporter-logging-1.46.0.jar;C:\Users\ADYASHA\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.46.0\opentelemetry-sdk-common-1.46.0.jar;C:\Users\ADYASHA\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.46.0\opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar;C:\Users\ADYASHA\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.46.0\opentelemetry-sdk-extension-autoconfigure-1.46.0.jar;C:\Users\ADYASHA\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.46.0-alpha\opentelemetry-api-incubator-1.46.0-alpha.jar;C:\Users\ADYASHA\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.46.0\opentelemetry-sdk-trace-1.46.0.jar;C:\Users\ADYASHA\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.46.0\opentelemetry-sdk-1.46.0.jar;C:\Users\ADYASHA\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.46.0\opentelemetry-sdk-metrics-1.46.0.jar;C:\Users\ADYASHA\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.46.0\opentelemetry-sdk-logs-1.46.0.jar;C:\Users\ADYASHA\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\ADYASHA\.m2\repository\org\seleniumhq\selenium\selenium-os\4.29.0\selenium-os-4.29.0.jar;C:\Users\ADYASHA\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\ADYASHA\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.29.0\selenium-safari-driver-4.29.0.jar;C:\Users\ADYASHA\.m2\repository\org\seleniumhq\selenium\selenium-support\4.29.0\selenium-support-4.29.0.jar;C:\Users\ADYASHA\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.3\webdrivermanager-5.9.3.jar;C:\Users\ADYASHA\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\ADYASHA\.m2\repository\com\google\code\gson\gson\2.12.1\gson-2.12.1.jar;C:\Users\ADYASHA\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\ADYASHA\.m2\repository\com\github\docker-java\docker-java\3.4.1\docker-java-3.4.1.jar;C:\Users\ADYASHA\.m2\repository\com\github\docker-java\docker-java-core\3.4.1\docker-java-core-3.4.1.jar;C:\Users\ADYASHA\.m2\repository\com\github\docker-java\docker-java-api\3.4.1\docker-java-api-3.4.1.jar;C:\Users\ADYASHA\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\ADYASHA\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.4.1\docker-java-transport-httpclient5-3.4.1.jar;C:\Users\ADYASHA\.m2\repository\com\github\docker-java\docker-java-transport\3.4.1\docker-java-transport-3.4.1.jar;C:\Users\ADYASHA\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\ADYASHA\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\ADYASHA\.m2\repository\org\apache\commons\commons-lang3\3.17.0\commons-lang3-3.17.0.jar;C:\Users\ADYASHA\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\ADYASHA\.m2\repository\commons-codec\commons-codec\1.17.1\commons-codec-1.17.1.jar;C:\Users\ADYASHA\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\ADYASHA\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\ADYASHA\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\ADYASHA\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\ADYASHA\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\ADYASHA\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\ADYASHA\.m2\repository\io\cucumber\cucumber-junit\7.21.1\cucumber-junit-7.21.1.jar;C:\Users\ADYASHA\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ADYASHA\.m2\repository\io\cucumber\cucumber-core\7.21.1\cucumber-core-7.21.1.jar;C:\Users\ADYASHA\.m2\repository\io\cucumber\cucumber-gherkin\7.21.1\cucumber-gherkin-7.21.1.jar;C:\Users\ADYASHA\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.21.1\cucumber-gherkin-messages-7.21.1.jar;C:\Users\ADYASHA\.m2\repository\io\cucumber\gherkin\31.0.0\gherkin-31.0.0.jar;C:\Users\ADYASHA\.m2\repository\io\cucumber\messages\27.2.0\messages-27.2.0.jar;C:\Users\ADYASHA\.m2\repository\io\cucumber\testng-xml-formatter\0.3.1\testng-xml-formatter-0.3.1.jar;C:\Users\ADYASHA\.m2\repository\io\cucumber\query\13.2.0\query-13.2.0.jar;C:\Users\ADYASHA\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar;C:\Users\ADYASHA\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\ADYASHA\.m2\repository\io\cucumber\datatable\7.21.1\datatable-7.21.1.jar;C:\Users\ADYASHA\.m2\repository\io\cucumber\cucumber-plugin\7.21.1\cucumber-plugin-7.21.1.jar;C:\Users\ADYASHA\.m2\repository\io\cucumber\docstring\7.21.1\docstring-7.21.1.jar;C:\Users\ADYASHA\.m2\repository\io\cucumber\html-formatter\21.9.0\html-formatter-21.9.0.jar;C:\Users\ADYASHA\.m2\repository\io\cucumber\junit-xml-formatter\0.7.1\junit-xml-formatter-0.7.1.jar;C:\Users\ADYASHA\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\ADYASHA\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\ADYASHA\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ADYASHA\.m2\repository\io\cucumber\cucumber-java\7.21.1\cucumber-java-7.21.1.jar;C:\Users\ADYASHA\.m2\repository\io\cucumber\cucumber-testng\7.21.1\cucumber-testng-7.21.1.jar;C:\Users\ADYASHA\.m2\repository\io\qameta\allure\allure-testng\2.29.1\allure-testng-2.29.1.jar;C:\Users\ADYASHA\.m2\repository\io\qameta\allure\allure-java-commons\2.29.1\allure-java-commons-2.29.1.jar;C:\Users\ADYASHA\.m2\repository\io\qameta\allure\allure-model\2.29.1\allure-model-2.29.1.jar;C:\Users\ADYASHA\.m2\repository\io\qameta\allure\allure-test-filter\2.29.1\allure-test-filter-2.29.1.jar;C:\Users\ADYASHA\.m2\repository\net\masterthought\cucumber-reporting\5.7.4\cucumber-reporting-5.7.4.jar;C:\Users\ADYASHA\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.2.2\jackson-databind-2.13.2.2.jar;C:\Users\ADYASHA\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.2\jackson-annotations-2.13.2.jar;C:\Users\ADYASHA\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.2\jackson-core-2.13.2.jar;C:\Users\ADYASHA\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.13.2\jackson-datatype-jsr310-2.13.2.jar;C:\Users\ADYASHA\.m2\repository\org\apache\velocity\velocity-engine-core\2.3\velocity-engine-core-2.3.jar;C:\Users\ADYASHA\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\ADYASHA\.m2\repository\joda-time\joda-time\2.10.14\joda-time-2.10.14.jar;C:\Users\ADYASHA\.m2\repository\commons-io\commons-io\2.7\commons-io-2.7.jar;C:\Users\ADYASHA\.m2\repository\org\codehaus\plexus\plexus-utils\3.4.2\plexus-utils-3.4.2.jar;C:\Users\ADYASHA\.m2\repository\org\jsoup\jsoup\1.15.3\jsoup-1.15.3.jar;C:\Users\ADYASHA\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\ADYASHA\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\ADYASHA\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\ADYASHA\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\ADYASHA\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\ADYASHA\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\ADYASHA\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20211018.2\owasp-java-html-sanitizer-20211018.2.jar;C:\Users\ADYASHA\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\ADYASHA\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\ADYASHA\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-23\bin"/>
+    <property name="sun.java.command" value="C:\Users\ADYASHA\AppData\Local\Temp\surefire2250673769736330960\surefirebooter-20250326115856653_3.jar C:\Users\ADYASHA\AppData\Local\Temp\surefire2250673769736330960 2025-03-26T11-58-54_668-jvmRun1 surefire-20250326115856653_1tmp surefire_0-20250326115856653_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\ADYASHA\eclipse-workspace\CapstoneProject\target\test-classes;C:\Users\ADYASHA\eclipse-workspace\CapstoneProject\target\classes;C:\Users\ADYASHA\.m2\repository\org\seleniumhq\selenium\selenium-java\4.29.0\selenium-java-4.29.0.jar;C:\Users\ADYASHA\.m2\repository\org\seleniumhq\selenium\selenium-api\4.29.0\selenium-api-4.29.0.jar;C:\Users\ADYASHA\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\ADYASHA\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.29.0\selenium-chrome-driver-4.29.0.jar;C:\Users\ADYASHA\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\ADYASHA\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.29.0\selenium-chromium-driver-4.29.0.jar;C:\Users\ADYASHA\.m2\repository\org\seleniumhq\selenium\selenium-json\4.29.0\selenium-json-4.29.0.jar;C:\Users\ADYASHA\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.29.0\selenium-manager-4.29.0.jar;C:\Users\ADYASHA\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.29.0\selenium-devtools-v131-4.29.0.jar;C:\Users\ADYASHA\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v132\4.29.0\selenium-devtools-v132-4.29.0.jar;C:\Users\ADYASHA\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v133\4.29.0\selenium-devtools-v133-4.29.0.jar;C:\Users\ADYASHA\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.29.0\selenium-devtools-v85-4.29.0.jar;C:\Users\ADYASHA\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.29.0\selenium-edge-driver-4.29.0.jar;C:\Users\ADYASHA\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.29.0\selenium-firefox-driver-4.29.0.jar;C:\Users\ADYASHA\.m2\repository\org\seleniumhq\selenium\selenium-http\4.29.0\selenium-http-4.29.0.jar;C:\Users\ADYASHA\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.29.0\selenium-ie-driver-4.29.0.jar;C:\Users\ADYASHA\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.29.0\selenium-remote-driver-4.29.0.jar;C:\Users\ADYASHA\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\ADYASHA\.m2\repository\io\opentelemetry\opentelemetry-api\1.46.0\opentelemetry-api-1.46.0.jar;C:\Users\ADYASHA\.m2\repository\io\opentelemetry\opentelemetry-context\1.46.0\opentelemetry-context-1.46.0.jar;C:\Users\ADYASHA\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.46.0\opentelemetry-exporter-logging-1.46.0.jar;C:\Users\ADYASHA\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.46.0\opentelemetry-sdk-common-1.46.0.jar;C:\Users\ADYASHA\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.46.0\opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar;C:\Users\ADYASHA\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.46.0\opentelemetry-sdk-extension-autoconfigure-1.46.0.jar;C:\Users\ADYASHA\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.46.0-alpha\opentelemetry-api-incubator-1.46.0-alpha.jar;C:\Users\ADYASHA\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.46.0\opentelemetry-sdk-trace-1.46.0.jar;C:\Users\ADYASHA\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.46.0\opentelemetry-sdk-1.46.0.jar;C:\Users\ADYASHA\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.46.0\opentelemetry-sdk-metrics-1.46.0.jar;C:\Users\ADYASHA\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.46.0\opentelemetry-sdk-logs-1.46.0.jar;C:\Users\ADYASHA\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\ADYASHA\.m2\repository\org\seleniumhq\selenium\selenium-os\4.29.0\selenium-os-4.29.0.jar;C:\Users\ADYASHA\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\ADYASHA\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.29.0\selenium-safari-driver-4.29.0.jar;C:\Users\ADYASHA\.m2\repository\org\seleniumhq\selenium\selenium-support\4.29.0\selenium-support-4.29.0.jar;C:\Users\ADYASHA\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.3\webdrivermanager-5.9.3.jar;C:\Users\ADYASHA\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\ADYASHA\.m2\repository\com\google\code\gson\gson\2.12.1\gson-2.12.1.jar;C:\Users\ADYASHA\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\ADYASHA\.m2\repository\com\github\docker-java\docker-java\3.4.1\docker-java-3.4.1.jar;C:\Users\ADYASHA\.m2\repository\com\github\docker-java\docker-java-core\3.4.1\docker-java-core-3.4.1.jar;C:\Users\ADYASHA\.m2\repository\com\github\docker-java\docker-java-api\3.4.1\docker-java-api-3.4.1.jar;C:\Users\ADYASHA\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\ADYASHA\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.4.1\docker-java-transport-httpclient5-3.4.1.jar;C:\Users\ADYASHA\.m2\repository\com\github\docker-java\docker-java-transport\3.4.1\docker-java-transport-3.4.1.jar;C:\Users\ADYASHA\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\ADYASHA\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\ADYASHA\.m2\repository\org\apache\commons\commons-lang3\3.17.0\commons-lang3-3.17.0.jar;C:\Users\ADYASHA\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\ADYASHA\.m2\repository\commons-codec\commons-codec\1.17.1\commons-codec-1.17.1.jar;C:\Users\ADYASHA\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\ADYASHA\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\ADYASHA\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\ADYASHA\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\ADYASHA\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\ADYASHA\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\ADYASHA\.m2\repository\io\cucumber\cucumber-junit\7.21.1\cucumber-junit-7.21.1.jar;C:\Users\ADYASHA\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ADYASHA\.m2\repository\io\cucumber\cucumber-core\7.21.1\cucumber-core-7.21.1.jar;C:\Users\ADYASHA\.m2\repository\io\cucumber\cucumber-gherkin\7.21.1\cucumber-gherkin-7.21.1.jar;C:\Users\ADYASHA\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.21.1\cucumber-gherkin-messages-7.21.1.jar;C:\Users\ADYASHA\.m2\repository\io\cucumber\gherkin\31.0.0\gherkin-31.0.0.jar;C:\Users\ADYASHA\.m2\repository\io\cucumber\messages\27.2.0\messages-27.2.0.jar;C:\Users\ADYASHA\.m2\repository\io\cucumber\testng-xml-formatter\0.3.1\testng-xml-formatter-0.3.1.jar;C:\Users\ADYASHA\.m2\repository\io\cucumber\query\13.2.0\query-13.2.0.jar;C:\Users\ADYASHA\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar;C:\Users\ADYASHA\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\ADYASHA\.m2\repository\io\cucumber\datatable\7.21.1\datatable-7.21.1.jar;C:\Users\ADYASHA\.m2\repository\io\cucumber\cucumber-plugin\7.21.1\cucumber-plugin-7.21.1.jar;C:\Users\ADYASHA\.m2\repository\io\cucumber\docstring\7.21.1\docstring-7.21.1.jar;C:\Users\ADYASHA\.m2\repository\io\cucumber\html-formatter\21.9.0\html-formatter-21.9.0.jar;C:\Users\ADYASHA\.m2\repository\io\cucumber\junit-xml-formatter\0.7.1\junit-xml-formatter-0.7.1.jar;C:\Users\ADYASHA\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\ADYASHA\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\ADYASHA\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ADYASHA\.m2\repository\io\cucumber\cucumber-java\7.21.1\cucumber-java-7.21.1.jar;C:\Users\ADYASHA\.m2\repository\io\cucumber\cucumber-testng\7.21.1\cucumber-testng-7.21.1.jar;C:\Users\ADYASHA\.m2\repository\io\qameta\allure\allure-testng\2.29.1\allure-testng-2.29.1.jar;C:\Users\ADYASHA\.m2\repository\io\qameta\allure\allure-java-commons\2.29.1\allure-java-commons-2.29.1.jar;C:\Users\ADYASHA\.m2\repository\io\qameta\allure\allure-model\2.29.1\allure-model-2.29.1.jar;C:\Users\ADYASHA\.m2\repository\io\qameta\allure\allure-test-filter\2.29.1\allure-test-filter-2.29.1.jar;C:\Users\ADYASHA\.m2\repository\net\masterthought\cucumber-reporting\5.7.4\cucumber-reporting-5.7.4.jar;C:\Users\ADYASHA\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.2.2\jackson-databind-2.13.2.2.jar;C:\Users\ADYASHA\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.2\jackson-annotations-2.13.2.jar;C:\Users\ADYASHA\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.2\jackson-core-2.13.2.jar;C:\Users\ADYASHA\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.13.2\jackson-datatype-jsr310-2.13.2.jar;C:\Users\ADYASHA\.m2\repository\org\apache\velocity\velocity-engine-core\2.3\velocity-engine-core-2.3.jar;C:\Users\ADYASHA\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\ADYASHA\.m2\repository\joda-time\joda-time\2.10.14\joda-time-2.10.14.jar;C:\Users\ADYASHA\.m2\repository\commons-io\commons-io\2.7\commons-io-2.7.jar;C:\Users\ADYASHA\.m2\repository\org\codehaus\plexus\plexus-utils\3.4.2\plexus-utils-3.4.2.jar;C:\Users\ADYASHA\.m2\repository\org\jsoup\jsoup\1.15.3\jsoup-1.15.3.jar;C:\Users\ADYASHA\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\ADYASHA\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\ADYASHA\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\ADYASHA\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\ADYASHA\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\ADYASHA\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\ADYASHA\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20211018.2\owasp-java-html-sanitizer-20211018.2.jar;C:\Users\ADYASHA\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\ADYASHA\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\ADYASHA\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ADYASHA"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-23"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\ADYASHA\eclipse-workspace\CapstoneProject"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\ADYASHA\AppData\Local\Temp\surefire2250673769736330960\surefirebooter-20250326115856653_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="23.0.2+7-58"/>
+    <property name="webdriver.edge.driver" value="C:\Users\ADYASHA\.cache\selenium\msedgedriver\win64\134.0.3124.83\msedgedriver.exe"/>
+    <property name="user.name" value="ADYASHA"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\ADYASHA\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADYASHA\AppData\Local\Temp\"/>
+    <property name="java.version" value="23.0.2"/>
+    <property name="user.dir" value="C:\Users\ADYASHA\eclipse-workspace\CapstoneProject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-23\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Users\ADYASHA\AppData\Local\Programs\Python\Python312;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Users\ADYASHA\AppData\Local\Programs\Python\Python312\Scripts;C:\Program Files\Java\jdk-23\bin\;C:\Program Files\Git\cmd;C:\Users\ADYASHA\Downloads\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Users\ADYASHA\Downloads\allure-2.33.0\allure-2.33.0\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\ADYASHA\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\heroku\bin;C:\Users\ADYASHA\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="23.0.2+7-58"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Login Functionality&quot;, &quot;Demo Shopping App testing&quot;](1)" classname="TestRunner.ShopRunner" time="9.758">
+    <system-out><![CDATA[
+@login
+Scenario Outline: Login Functionality        &amp#27;[90m# src/test/resources/Features/DemoShop.feature:15&amp#27;[0m
+
+@login
+Scenario Outline: Login Functionality        &amp#27;[90m# src/test/resources/Features/DemoShop.feature:15&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser launch Demo Shop Home Page&amp#27;[0m      &amp#27;[90m# StepDefinition.ShopSteps.user_launch_demo_shop_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters Email&amp#27;[0m&amp#27;[32m&amp#27;[1mtrips.siya@gmail.com&amp#27;[0m &amp#27;[90m# StepDefinition.ShopSteps.user_enters_emailtrips_siya_gmail_com(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters Password&amp#27;[0m&amp#27;[32m&amp#27;[1mDemo2siya&amp#27;[0m          &amp#27;[90m# StepDefinition.ShopSteps.user_enters_password_demo2siya(java.lang.String)&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser launch Demo Shop Home Page&amp#27;[0m      &amp#27;[90m# StepDefinition.ShopSteps.user_launch_demo_shop_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters Email&amp#27;[0m&amp#27;[32m&amp#27;[1mtrips.siya@gmail.com&amp#27;[0m &amp#27;[90m# StepDefinition.ShopSteps.user_enters_emailtrips_siya_gmail_com(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters Password&amp#27;[0m&amp#27;[32m&amp#27;[1mDemo2siya&amp#27;[0m          &amp#27;[90m# StepDefinition.ShopSteps.user_enters_password_demo2siya(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on Login button&amp#27;[0m            &amp#27;[90m# StepDefinition.ShopSteps.user_clicks_on_login_button()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on Login button&amp#27;[0m            &amp#27;[90m# StepDefinition.ShopSteps.user_clicks_on_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mvalidate log in&amp#27;[0m                       &amp#27;[90m# StepDefinition.ShopSteps.validate_log_in()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Mar 26, 2025 11:59:02 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
+Mar 26, 2025 11:59:04 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Login Functionality&quot;, &quot;Demo Shopping App testing&quot;](1)" classname="TestRunner.ShopRunner" time="1.084">
+    <system-out><![CDATA[
+@login
+Scenario Outline: Login Functionality       &amp#27;[90m# src/test/resources/Features/DemoShop.feature:16&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mvalidate log in&amp#27;[0m                       &amp#27;[90m# StepDefinition.ShopSteps.validate_log_in()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 26, 2025 11:59:09 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Login Functionality&quot;, &quot;Demo Shopping App testing&quot;](2)" classname="TestRunner.ShopRunner" time="4.915">
+    <system-out><![CDATA[
+@login
+Scenario Outline: Login Functionality       &amp#27;[90m# src/test/resources/Features/DemoShop.feature:16&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser launch Demo Shop Home Page&amp#27;[0m     &amp#27;[90m# StepDefinition.ShopSteps.user_launch_demo_shop_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters Email&amp#27;[0m&amp#27;[32m&amp#27;[1minvalid@invalid.com&amp#27;[0m &amp#27;[90m# StepDefinition.ShopSteps.user_enters_emailtrips_siya_gmail_com(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters Password&amp#27;[0m&amp#27;[32m&amp#27;[1minvalid&amp#27;[0m           &amp#27;[90m# StepDefinition.ShopSteps.user_enters_password_demo2siya(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on Login button&amp#27;[0m           &amp#27;[90m# StepDefinition.ShopSteps.user_clicks_on_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mvalidate log in&amp#27;[0m                      &amp#27;[90m# StepDefinition.ShopSteps.validate_log_in()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 26, 2025 11:59:13 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Login Functionality&quot;, &quot;Demo Shopping App testing&quot;](2)" classname="TestRunner.ShopRunner" time="5.17">
+    <system-out><![CDATA[
+@registration
+Scenario Outline: Registration functionality  &amp#27;[90m# src/test/resources/Features/DemoShop.feature:30&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser launch Demo Shop Home Page&amp#27;[0m     &amp#27;[90m# StepDefinition.ShopSteps.user_launch_demo_shop_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters Email&amp#27;[0m&amp#27;[32m&amp#27;[1minvalid@invalid.com&amp#27;[0m &amp#27;[90m# StepDefinition.ShopSteps.user_enters_emailtrips_siya_gmail_com(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters Password&amp#27;[0m&amp#27;[32m&amp#27;[1minvalid&amp#27;[0m           &amp#27;[90m# StepDefinition.ShopSteps.user_enters_password_demo2siya(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on Login button&amp#27;[0m           &amp#27;[90m# StepDefinition.ShopSteps.user_clicks_on_login_button()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser launch Demo Shop Home Page&amp#27;[0m       &amp#27;[90m# StepDefinition.ShopSteps.user_launch_demo_shop_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters First Name&amp#27;[0m&amp#27;[32m&amp#27;[1mWipro4&amp#27;[0m           &amp#27;[90m# StepDefinition.ShopSteps.user_enters_first_name_wipro(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters Last Name&amp#27;[0m&amp#27;[32m&amp#27;[1mTesting4&amp#27;[0m           &amp#27;[90m# StepDefinition.ShopSteps.user_enters_last_name_testing(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters the Email&amp#27;[0m&amp#27;[32m&amp#27;[1mwipro4@testing.com&amp#27;[0m &amp#27;[90m# StepDefinition.ShopSteps.user_enters_the_email_email(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters the Password&amp#27;[0m&amp#27;[32m&amp#27;[1mtesting4&amp#27;[0m        &amp#27;[90m# StepDefinition.ShopSteps.user_enters_the_password_password(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mvalidate log in&amp#27;[0m                      &amp#27;[90m# StepDefinition.ShopSteps.validate_log_in()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 26, 2025 11:59:16 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Registration functionality&quot;, &quot;Demo Shopping App testing&quot;](3)" classname="TestRunner.ShopRunner" time="51.316">
+    <system-out><![CDATA[
+@registration
+Scenario Outline: Registration functionality  &amp#27;[90m# src/test/resources/Features/DemoShop.feature:30&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser confirms password&amp#27;[0m&amp#27;[32m&amp#27;[1mtesting4&amp#27;[0m          &amp#27;[90m# StepDefinition.ShopSteps.user_confirms_password_testing2wip(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on registration button&amp#27;[0m      &amp#27;[90m# StepDefinition.ShopSteps.user_clicks_on_registration_button()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser launch Demo Shop Home Page&amp#27;[0m       &amp#27;[90m# StepDefinition.ShopSteps.user_launch_demo_shop_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters First Name&amp#27;[0m&amp#27;[32m&amp#27;[1mWipro4&amp#27;[0m           &amp#27;[90m# StepDefinition.ShopSteps.user_enters_first_name_wipro(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters Last Name&amp#27;[0m&amp#27;[32m&amp#27;[1mTesting4&amp#27;[0m           &amp#27;[90m# StepDefinition.ShopSteps.user_enters_last_name_testing(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters the Email&amp#27;[0m&amp#27;[32m&amp#27;[1mwipro4@testing.com&amp#27;[0m &amp#27;[90m# StepDefinition.ShopSteps.user_enters_the_email_email(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters the Password&amp#27;[0m&amp#27;[32m&amp#27;[1mtesting4&amp#27;[0m        &amp#27;[90m# StepDefinition.ShopSteps.user_enters_the_password_password(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser confirms password&amp#27;[0m&amp#27;[32m&amp#27;[1mtesting4&amp#27;[0m          &amp#27;[90m# StepDefinition.ShopSteps.user_confirms_password_testing2wip(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on registration button&amp#27;[0m      &amp#27;[90m# StepDefinition.ShopSteps.user_clicks_on_registration_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mvalidate successful registration&amp#27;[0m       &amp#27;[90m# StepDefinition.ShopSteps.validate_successful_registration()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 26, 2025 11:59:22 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Registration functionality&quot;, &quot;Demo Shopping App testing&quot;](3)" classname="TestRunner.ShopRunner" time="7.449">
+    <system-out><![CDATA[
+@registration
+Scenario Outline: Registration functionality &amp#27;[90m# src/test/resources/Features/DemoShop.feature:31&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser launch Demo Shop Home Page&amp#27;[0m      &amp#27;[90m# StepDefinition.ShopSteps.user_launch_demo_shop_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters First Name&amp#27;[0m&amp#27;[32m&amp#27;[1mJava&amp#27;[0m            &amp#27;[90m# StepDefinition.ShopSteps.user_enters_first_name_wipro(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters Last Name&amp#27;[0m&amp#27;[32m&amp#27;[1mbatch&amp#27;[0m             &amp#27;[90m# StepDefinition.ShopSteps.user_enters_last_name_testing(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters the Email&amp#27;[0m&amp#27;[32m&amp#27;[1m&amp#27;[0m                  &amp#27;[90m# StepDefinition.ShopSteps.user_enters_the_email_email(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters the Password&amp#27;[0m&amp#27;[32m&amp#27;[1mjavaworld&amp#27;[0m      &amp#27;[90m# StepDefinition.ShopSteps.user_enters_the_password_password(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser confirms password&amp#27;[0m&amp#27;[32m&amp#27;[1mjavaworld&amp#27;[0m        &amp#27;[90m# StepDefinition.ShopSteps.user_confirms_password_testing2wip(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on registration button&amp#27;[0m     &amp#27;[90m# StepDefinition.ShopSteps.user_clicks_on_registration_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mvalidate successful registration&amp#27;[0m       &amp#27;[90m# StepDefinition.ShopSteps.validate_successful_registration()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 26, 2025 12:00:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Registration functionality&quot;, &quot;Demo Shopping App testing&quot;](4)" classname="TestRunner.ShopRunner" time="22.954">
+    <system-out><![CDATA[
+@registration
+Scenario Outline: Registration functionality &amp#27;[90m# src/test/resources/Features/DemoShop.feature:31&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser launch Demo Shop Home Page&amp#27;[0m      &amp#27;[90m# StepDefinition.ShopSteps.user_launch_demo_shop_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters First Name&amp#27;[0m&amp#27;[32m&amp#27;[1mJava&amp#27;[0m            &amp#27;[90m# StepDefinition.ShopSteps.user_enters_first_name_wipro(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters Last Name&amp#27;[0m&amp#27;[32m&amp#27;[1mbatch&amp#27;[0m             &amp#27;[90m# StepDefinition.ShopSteps.user_enters_last_name_testing(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters the Email&amp#27;[0m&amp#27;[32m&amp#27;[1m&amp#27;[0m                  &amp#27;[90m# StepDefinition.ShopSteps.user_enters_the_email_email(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters the Password&amp#27;[0m&amp#27;[32m&amp#27;[1mjavaworld&amp#27;[0m      &amp#27;[90m# StepDefinition.ShopSteps.user_enters_the_password_password(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser confirms password&amp#27;[0m&amp#27;[32m&amp#27;[1mjavaworld&amp#27;[0m        &amp#27;[90m# StepDefinition.ShopSteps.user_confirms_password_testing2wip(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on registration button&amp#27;[0m     &amp#27;[90m# StepDefinition.ShopSteps.user_clicks_on_registration_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mvalidate successful registration&amp#27;[0m      &amp#27;[90m# StepDefinition.ShopSteps.validate_successful_registration()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 26, 2025 12:00:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Registration functionality&quot;, &quot;Demo Shopping App testing&quot;](4)" classname="TestRunner.ShopRunner" time="3.839">
+    <system-out><![CDATA[
+@search
+Scenario Outline: Search Functionality    &amp#27;[90m# src/test/resources/Features/DemoShop.feature:49&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser launch Demo Shop Home Page&amp#27;[0m   &amp#27;[90m# StepDefinition.ShopSteps.user_launch_demo_shop_home_page()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mvalidate successful registration&amp#27;[0m      &amp#27;[90m# StepDefinition.ShopSteps.validate_successful_registration()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 26, 2025 12:00:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Logout Functionality&quot;, &quot;Demo Shopping App testing&quot;](5)" classname="TestRunner.ShopRunner" time="7.916">
+    <system-out><![CDATA[
+@logout
+Scenario: Logout Functionality          &amp#27;[90m# src/test/resources/Features/DemoShop.feature:35&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser launch Demo Shop Home Page&amp#27;[0m &amp#27;[90m# StepDefinition.ShopSteps.user_launch_demo_shop_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser goes to login page&amp#27;[0m          &amp#27;[90m# StepDefinition.ShopSteps.user_goes_to_login_page()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters credentials&amp#27;[0m           &amp#27;[90m# StepDefinition.ShopSteps.user_enters_credentials()&amp#27;[0m
+Logout successful
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser clicks logout&amp#27;[0m               &amp#27;[90m# StepDefinition.ShopSteps.user_clicks_logout()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 26, 2025 12:00:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Logout Functionality&quot;, &quot;Demo Shopping App testing&quot;](5)" classname="TestRunner.ShopRunner" time="10.747">
+    <system-out><![CDATA[
+@multipleProducts
+Scenario: Adding Multiple Products Functionality &amp#27;[90m# src/test/resources/Features/DemoShop.feature:53&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser launch Demo Shop Home Page&amp#27;[0m          &amp#27;[90m# StepDefinition.ShopSteps.user_launch_demo_shop_home_page()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser launch Demo Shop Home Page&amp#27;[0m &amp#27;[90m# StepDefinition.ShopSteps.user_launch_demo_shop_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser goes to login page&amp#27;[0m          &amp#27;[90m# StepDefinition.ShopSteps.user_goes_to_login_page()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters credentials&amp#27;[0m           &amp#27;[90m# StepDefinition.ShopSteps.user_enters_credentials()&amp#27;[0m
+Logout successful
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser clicks logout&amp#27;[0m               &amp#27;[90m# StepDefinition.ShopSteps.user_clicks_logout()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 26, 2025 12:00:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
+Mar 26, 2025 12:00:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Search Functionality&quot;, &quot;Demo Shopping App testing&quot;](6)" classname="TestRunner.ShopRunner" time="1.625">
+    <system-out><![CDATA[
+@logout
+Scenario: Logout Functionality          &amp#27;[90m# src/test/resources/Features/DemoShop.feature:35&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser searches a product&amp#27;[0m&amp#27;[32m&amp#27;[1mlaptop&amp#27;[0m      &amp#27;[90m# StepDefinition.ShopSteps.user_searches_a_productlaptop(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on product&amp#27;[0m              &amp#27;[90m# StepDefinition.ShopSteps.user_clicks_on_product()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser adds product to cart&amp#27;[0m           &amp#27;[90m# StepDefinition.ShopSteps.user_adds_product_to_cart()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser validates if product is added&amp#27;[0m &amp#27;[90m# StepDefinition.ShopSteps.user_validates_if_product_is_added()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Search Functionality&quot;, &quot;Demo Shopping App testing&quot;](6)" classname="TestRunner.ShopRunner" time="37.93">
+    <system-out><![CDATA[
+@search
+Scenario Outline: Search Functionality    &amp#27;[90m# src/test/resources/Features/DemoShop.feature:49&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser launch Demo Shop Home Page&amp#27;[0m   &amp#27;[90m# StepDefinition.ShopSteps.user_launch_demo_shop_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser searches a product&amp#27;[0m&amp#27;[32m&amp#27;[1mlaptop&amp#27;[0m      &amp#27;[90m# StepDefinition.ShopSteps.user_searches_a_productlaptop(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on product&amp#27;[0m              &amp#27;[90m# StepDefinition.ShopSteps.user_clicks_on_product()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser adds product to cart&amp#27;[0m           &amp#27;[90m# StepDefinition.ShopSteps.user_adds_product_to_cart()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser validates if product is added&amp#27;[0m &amp#27;[90m# StepDefinition.ShopSteps.user_validates_if_product_is_added()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 26, 2025 12:01:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Adding Multiple Products Functionality&quot;, &quot;Demo Shopping App testing&quot;](7)" classname="TestRunner.ShopRunner" time="13.493">
+    <system-out><![CDATA[
+@multipleProducts
+Scenario: Adding Multiple Products Functionality &amp#27;[90m# src/test/resources/Features/DemoShop.feature:53&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser launch Demo Shop Home Page&amp#27;[0m          &amp#27;[90m# StepDefinition.ShopSteps.user_launch_demo_shop_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser searches and adds multiple product&amp#27;[0m   &amp#27;[90m# StepDefinition.ShopSteps.user_searches_and_adds_multiple_products()&amp#27;[0m
+34.0
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mvalidate the products and their total&amp#27;[0m     &amp#27;[90m# StepDefinition.ShopSteps.validate_the_products_and_their_total()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 26, 2025 12:01:46 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Adding Multiple Products Functionality&quot;, &quot;Demo Shopping App testing&quot;](7)" classname="TestRunner.ShopRunner" time="38.202">
+    <system-out><![CDATA[
+@checkoutvalid
+Scenario: Checkout valid Functionality                                             &amp#27;[90m# src/test/resources/Features/DemoShop.feature:66&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser launch Demo Shop Home Page&amp#27;[0m                                            &amp#27;[90m# StepDefinition.ShopSteps.user_launch_demo_shop_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser searches and adds multiple product&amp#27;[0m   &amp#27;[90m# StepDefinition.ShopSteps.user_searches_and_adds_multiple_products()&amp#27;[0m
+34.0
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mvalidate the products and their total&amp#27;[0m     &amp#27;[90m# StepDefinition.ShopSteps.validate_the_products_and_their_total()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 26, 2025 12:02:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Adding a Coupon Functionality&quot;, &quot;Demo Shopping App testing&quot;](8)" classname="TestRunner.ShopRunner" time="5.296">
+    <system-out><![CDATA[
+@coupon
+Scenario: Adding a Coupon Functionality &amp#27;[90m# src/test/resources/Features/DemoShop.feature:59&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser launch Demo Shop Home Page&amp#27;[0m &amp#27;[90m# StepDefinition.ShopSteps.user_launch_demo_shop_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser adds any product to cart&amp#27;[0m    &amp#27;[90m# StepDefinition.ShopSteps.user_adds_any_product_to_cart()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser adds any coupon"&amp#27;[0m&amp#27;[32m&amp#27;[1mxyz123&amp#27;[0m&amp#27;[32m"&amp#27;[0m      &amp#27;[90m# StepDefinition.ShopSteps.user_adds_any_coupon_xyz123(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mvalidate the message&amp#27;[0m             &amp#27;[90m# StepDefinition.ShopSteps.validate_the_message()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 26, 2025 12:01:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Adding a Coupon Functionality&quot;, &quot;Demo Shopping App testing&quot;](8)" classname="TestRunner.ShopRunner" time="3.813">
+    <system-out><![CDATA[
+@checkoutinvalid
+Scenario: Checkout invalid Functionality                                            &amp#27;[90m# src/test/resources/Features/DemoShop.feature:78&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser adds any product to cart&amp#27;[0m    &amp#27;[90m# StepDefinition.ShopSteps.user_adds_any_product_to_cart()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser adds any coupon"&amp#27;[0m&amp#27;[32m&amp#27;[1mxyz123&amp#27;[0m&amp#27;[32m"&amp#27;[0m      &amp#27;[90m# StepDefinition.ShopSteps.user_adds_any_coupon_xyz123(java.lang.String)&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser launch Demo Shop Home Page&amp#27;[0m                                             &amp#27;[90m# StepDefinition.ShopSteps.user_launch_demo_shop_home_page()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mvalidate the message&amp#27;[0m             &amp#27;[90m# StepDefinition.ShopSteps.validate_the_message()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 26, 2025 12:02:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Checkout valid Functionality&quot;, &quot;Demo Shopping App testing&quot;](9)" classname="TestRunner.ShopRunner" time="5.406">
+    <system-out><![CDATA[
+@coupon
+Scenario: Adding a Coupon Functionality &amp#27;[90m# src/test/resources/Features/DemoShop.feature:59&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser logs in, searches, adds a product to cart, and clicks checkout&amp#27;[0m         &amp#27;[90m# StepDefinition.ShopSteps.user_logs_in_searches_adds_a_product_to_cart_and_clicks_checkout()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser fills all the details like country,city,address,zip,phone and continues&amp#27;[0m &amp#27;[90m# StepDefinition.ShopSteps.user_fills_all_the_details_like_country_city_address_zip_phone_and_continues(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | India      |
+    | xyz        |
+    | abc        |
+    | 123456     |
+    | 9988776655 |
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser launch Demo Shop Home Page&amp#27;[0m &amp#27;[90m# StepDefinition.ShopSteps.user_launch_demo_shop_home_page()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mvalidate the process&amp#27;[0m                                                        &amp#27;[90m# StepDefinition.ShopSteps.validate_the_process()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 26, 2025 12:02:43 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Checkout valid Functionality&quot;, &quot;Demo Shopping App testing&quot;](9)" classname="TestRunner.ShopRunner" time="42.335">
+    <system-out><![CDATA[  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser fills all the details like country,city,address,zip,phone and continues&amp#27;[0m &amp#27;[90m# StepDefinition.ShopSteps.user_fills_all_the_details_like_country_city_address_zip_phone_and_continues(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | India      |
+    | xyz        |
+    | abc        |
+    | 123456     |
+    | 9988776655 |
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mvalidate the process&amp#27;[0m                                                        &amp#27;[90m# StepDefinition.ShopSteps.validate_the_process()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Checkout invalid Functionality&quot;, &quot;Demo Shopping App testing&quot;](10)" classname="TestRunner.ShopRunner" time="37.876">
+    <system-out><![CDATA[
+@checkoutvalid
+Scenario: Checkout valid Functionality                                             &amp#27;[90m# src/test/resources/Features/DemoShop.feature:66&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser launch Demo Shop Home Page&amp#27;[0m                                            &amp#27;[90m# StepDefinition.ShopSteps.user_launch_demo_shop_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser logs in, searches, adds a product to cart, and clicks checkout&amp#27;[0m         &amp#27;[90m# StepDefinition.ShopSteps.user_logs_in_searches_adds_a_product_to_cart_and_clicks_checkout()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser performs logs in, searches, adds a product to cart, and clicks checkout&amp#27;[0m &amp#27;[90m# StepDefinition.ShopSteps.user_performs_logs_in_searches_adds_a_product_to_cart_and_clicks_checkout()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser fills all the details and continues&amp#27;[0m                                      &amp#27;[90m# StepDefinition.ShopSteps.user_fills_all_the_details_and_continues(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | India  |
+    | xyz    |
+    | abc    |
+    | 123456 |
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mvalidate the entire process&amp#27;[0m                                                  &amp#27;[90m# StepDefinition.ShopSteps.validate_the_entire_process()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 26, 2025 12:02:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Checkout invalid Functionality&quot;, &quot;Demo Shopping App testing&quot;](10)" classname="TestRunner.ShopRunner" time="43.34">
+    <system-out><![CDATA[
+@checkoutinvalid
+Scenario: Checkout invalid Functionality                                            &amp#27;[90m# src/test/resources/Features/DemoShop.feature:78&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser launch Demo Shop Home Page&amp#27;[0m                                             &amp#27;[90m# StepDefinition.ShopSteps.user_launch_demo_shop_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser performs logs in, searches, adds a product to cart, and clicks checkout&amp#27;[0m &amp#27;[90m# StepDefinition.ShopSteps.user_performs_logs_in_searches_adds_a_product_to_cart_and_clicks_checkout()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser fills all the details and continues&amp#27;[0m                                      &amp#27;[90m# StepDefinition.ShopSteps.user_fills_all_the_details_and_continues(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | India  |
+    | xyz    |
+    | abc    |
+    | 123456 |
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mvalidate the entire process&amp#27;[0m                                                  &amp#27;[90m# StepDefinition.ShopSteps.validate_the_entire_process()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 26, 2025 12:03:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
+]]></system-err>
+  </testcase>
+</testsuite>

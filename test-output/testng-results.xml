@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-26T10:59:56 IST" name="Suite" finished-at="2025-03-26T11:00:08 IST" duration-ms="12030">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.ShopRunner@3576ddc2]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.ShopRunner@24c22fe]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-03-26T10:59:56 IST" name="ChromeTest" finished-at="2025-03-26T11:00:05 IST" duration-ms="9505">
+      <class name="TestRunner.ShopRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunner.ShopRunner@3576ddc2]" started-at="2025-03-26T10:59:56 IST" name="setUpClass" finished-at="2025-03-26T10:59:57 IST" duration-ms="865" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6b6776cb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="GiveBrowser(java.lang.String)[pri:0, instance:TestRunner.ShopRunner@3576ddc2]" started-at="2025-03-26T10:59:57 IST" name="GiveBrowser" finished-at="2025-03-26T10:59:57 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GiveBrowser -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.ShopRunner@3576ddc2]" started-at="2025-03-26T10:59:57 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-26T11:00:05 IST" duration-ms="8396" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Adding a Coupon Functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Demo Shopping App testing"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.ShopRunner@3576ddc2]" started-at="2025-03-26T11:00:05 IST" name="tearDownClass" finished-at="2025-03-26T11:00:05 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunner.ShopRunner -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2025-03-26T10:59:56 IST" name="EdgeTest" finished-at="2025-03-26T11:00:08 IST" duration-ms="12030">
+      <class name="TestRunner.ShopRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunner.ShopRunner@24c22fe]" started-at="2025-03-26T10:59:56 IST" name="setUpClass" finished-at="2025-03-26T10:59:57 IST" duration-ms="865" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@544d57e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="GiveBrowser(java.lang.String)[pri:0, instance:TestRunner.ShopRunner@24c22fe]" started-at="2025-03-26T10:59:57 IST" name="GiveBrowser" finished-at="2025-03-26T10:59:57 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GiveBrowser -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.ShopRunner@24c22fe]" started-at="2025-03-26T10:59:57 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-26T11:00:08 IST" duration-ms="11092" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Adding a Coupon Functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Demo Shopping App testing"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.ShopRunner@24c22fe]" started-at="2025-03-26T11:00:08 IST" name="tearDownClass" finished-at="2025-03-26T11:00:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunner.ShopRunner -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
